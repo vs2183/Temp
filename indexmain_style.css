@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.topnav {
+    
+    padding-left: 40%;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #0e0d0d;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bolder;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgb(40, 69, 197);
+    color:white;
+    box-sizing: border-box;
+    border-radius: 5%;
+  }
+  .main
+  {
+      width:70%;
+      margin-left:auto;
+      margin-right:auto;
+      margin-top: 5%;
+  }
+.label
+{
+    font-size: 25px;
+    font-weight: bolder;
+    width: fit-content;
+    background-color:black;
+    color: white;
+    border-top-right-radius:5px;
+    border-top-left-radius:5px;
+    padding:1%;
+    
+}
+.block
+{
+    text-align: left;
+    background-color: #5b5b9b;
+    color: white;
+    font-size:18px;
+    border: none;
+    border-top-right-radius:25px;
+    border-bottom-right-radius:25px;
+    outline: none;
+    overflow:unset;
+    width:95%;
+    padding-top: 10px;
+    caret-color: transparent;
+    padding-bottom: 10px;
+    
+}
+.btn
+{
+  width: fit-content;
+  float: right;
+  border:none;
+  outline: none;
+  position:-webkit-sticky;
+  position:sticky;
+}
+.btn1
+{
+  width: fit-content;
+  float: right;
+  border:none;
+  outline: none;
+  position:-webkit-sticky;
+  position:sticky;
+}
